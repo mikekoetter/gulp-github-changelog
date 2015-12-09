@@ -1,0 +1,26 @@
+{
+  "name": "gulp-github-changelog",
+  "version": "0.1.0",
+  "description": "Gulp tasks for changelog generation from github issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/underlog/gulp-github-changelog.git"
+  },
+  "keywords": [
+    "gulp",
+    "changelog",
+    "NPM"
+  ],
+  "contributors": [
+    "Petyo Ivanov <underlog@gmail.com>"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/underlog/gulp-github-changelog/issues"
+  },
+  "homepage": "https://github.com/underlog/gulp-github-changelog#readme"
+}
