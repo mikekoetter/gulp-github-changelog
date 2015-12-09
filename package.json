@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Gulp tasks for changelog generation from github issues",
   "main": "index.js",
+  "engines" : {
+      "node" : ">=4.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +25,18 @@
   "bugs": {
     "url": "https://github.com/underlog/gulp-github-changelog/issues"
   },
-  "homepage": "https://github.com/underlog/gulp-github-changelog#readme"
+  "homepage": "https://github.com/underlog/gulp-github-changelog#readme",
+  "peerDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "github": "^0.2.4",
+    "gulp-insert": "^0.5.0",
+    "gulp-util": "^3.0.7",
+    "handlebars": "^4.0.5",
+    "parse-link-header": "^0.4.1",
+    "semver": "^5.1.0",
+    "yargs": "^3.31.0"
+  }
 }
