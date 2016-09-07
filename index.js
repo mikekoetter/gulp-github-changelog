@@ -204,6 +204,8 @@ class GithubRepo {
                 PER_PAGE,
                 page
             })
+        ).then( issues =>
+            issues.filter( issue => !issue.labels.find( label => label.name.match(/duplicate|invalid|wontfix|question/) ) )
         )
     }
 
